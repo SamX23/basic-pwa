@@ -5,15 +5,15 @@
     <title>My PWA Basic</title>
     <meta name="description" content="My PWA Basic" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#00897B"/>
-    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00897B" />
+    <link rel="manifest" href="/manifest.json" />
     <link rel="stylesheet" href="css/materialize.min.css" />
   </head>
   <body>
     <!-- Navigasi -->
     <nav class="teal lighten-1" role="navigation">
       <div class="nav-wrapper container">
-        <a href="#" class="brand-logo" id="logo-container">My App</a>
+        <a href="#" class="brand-logo" id="logo-container">Basic PWA</a>
         <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
 
         <ul class="topnav right hide-on-med-and-down"></ul>
@@ -21,24 +21,53 @@
       </div>
     </nav>
     <!-- Akhir Navigasi -->
+    <!-- Konten Body -->
     <div class="container" id="body-content"></div>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Basic PWA</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Copyright &copy; 2020
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
     <script src="js/materialize.min.js"></script>
     <script src="js/nav.js"></script>
     <script>
       if ("serviceWorker" in navigator) {
-          window.addEventListener("load", function() {
-            navigator.serviceWorker
-              .register("/service-worker.js")
-              .then(function() {
-                console.log("Pendaftaran ServiceWorker berhasil");
-              })
-              .catch(function() {
-                console.log("Pendaftaran ServiceWorker gagal");
-              });
-          });
-        } else {
-          console.log("ServiceWorker belum didukung browser ini.");
-        }
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then(function () {
+              console.log("Pendaftaran ServiceWorker berhasil");
+            })
+            .catch(function () {
+              console.log("Pendaftaran ServiceWorker gagal");
+            });
+        });
+      } else {
+        console.log("ServiceWorker belum didukung browser ini.");
+      }
     </script>
   </body>
 </html>
