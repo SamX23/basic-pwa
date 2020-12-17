@@ -1,0 +1,16 @@
+{
+  "name": "My basic PWA",
+  "short_name": "My PWA",
+  "description": "Basic for creating PWA",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#00897B",
+  "theme_color": "#00897B",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
