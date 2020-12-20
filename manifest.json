@@ -1,7 +1,7 @@
 {
-  "name": "My basic PWA",
-  "short_name": "My PWA",
-  "description": "Basic for creating PWA",
+  "name": "Pokémon Basic PWA",
+  "short_name": "Pokemon PWA",
+  "description": "Pokemon Mini Wikipedia",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#00897B",
