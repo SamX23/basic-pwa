@@ -2,12 +2,14 @@ const CACHE_NAME = "pwa_cache";
 
 let urlsToCache = [
   "/",
+  "/favicon.png",
   "/icon.png",
   "/nav.html",
   "/index.html",
   "/pages/home.html",
   "/pages/films.html",
   "/pages/videogames.html",
+  "/pages/about.html",
   "/images/",
   "/css/materialize.min.css",
   "/js/materialize.min.js",
