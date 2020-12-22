@@ -16,7 +16,6 @@ let urlsToCache = [
   "/js/nav.js",
 ];
 
-// save assets to cache
 self.addEventListener("install", function (event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
@@ -25,7 +24,6 @@ self.addEventListener("install", function (event) {
   );
 });
 
-// load assets from cache
 self.addEventListener("fetch", function (event) {
   event.respondWith(
     caches
@@ -45,7 +43,6 @@ self.addEventListener("fetch", function (event) {
   );
 });
 
-// Remove cache on update
 self.addEventListener("activate", function (event) {
   event.waitUntil(
     caches.keys().then(function (cacheNames) {
