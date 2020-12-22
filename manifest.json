@@ -1,8 +1,8 @@
 {
-  "name": "Pokémon Basic PWA",
-  "short_name": "Pokemon PWA",
+  "name": "PokémonBasic",
+  "short_name": "PokemonPWA",
   "description": "Pokemon Mini Wikipedia",
-  "start_url": "../index.html",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#00897B",
   "theme_color": "#00897B",
@@ -14,12 +14,12 @@
     },
     {
       "src": "favicon.png",
-      "sizes": "64x64",
+      "sizes": "128x128",
       "type": "image/png"
     },
     {
       "src": "m_icon.png",
-      "sizes": "64x64",
+      "sizes": "128x128",
       "type": "image/png",
       "purpose": "any maskable"
     }
