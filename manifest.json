@@ -16,6 +16,12 @@
       "src": "favicon.png",
       "sizes": "64x64",
       "type": "image/png"
+    },
+    {
+      "src": "m_icon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
