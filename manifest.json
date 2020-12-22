@@ -2,7 +2,7 @@
   "name": "Pokémon Basic PWA",
   "short_name": "Pokemon PWA",
   "description": "Pokemon Mini Wikipedia",
-  "start_url": "/index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#00897B",
   "theme_color": "#00897B",
