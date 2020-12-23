@@ -1,6 +1,6 @@
 const CACHE_NAME = "pwa_cache";
 
-let urlsToCache = [
+const urlsToCache = [
   "/",
   "/favicon.png",
   "/icon.png",
@@ -22,6 +22,7 @@ let urlsToCache = [
 ];
 
 self.addEventListener("install", function (event) {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       return cache.addAll(urlsToCache);
