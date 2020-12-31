@@ -2,23 +2,18 @@ const CACHE_NAME = "pwa_cache";
 
 const urlsToCache = [
   "/",
+  "/maskable_icon.png",
   "/favicon.png",
   "/icon.png",
   "/nav.html",
   "/index.html",
   "/pages/home.html",
-  "/pages/films.html",
-  "/pages/videogames.html",
+  "/pages/capabilities.html",
+  "/pages/developer.html",
   "/pages/about.html",
-  "/images/",
   "/css/materialize.min.css",
   "/js/materialize.min.js",
   "/js/nav.js",
-  "https://upload.wikimedia.org/wikipedia/en/c/c9/Pokemon-mewtwo-strikes-back.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/d/dd/Pok%C3%A9mon_The_Movie_2000.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/4/47/Pokemon-3-japanese-poster.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/3/37/Pokemon-4ever-poster.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/f/f9/Pokemon-heroes-poster-japanese.jpg",
 ];
 
 self.addEventListener("install", function (event) {
