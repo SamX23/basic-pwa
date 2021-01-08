@@ -1,3 +1,4 @@
+/* Home Page */
 .hero {
   width: 100%;
   background-color: rgb(213, 255, 241);
@@ -8,5 +9,8 @@
   width: 100%;
 }
 
-.hero__content {
+.hero__content > h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
