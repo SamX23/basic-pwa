@@ -1,0 +1,12 @@
+.hero {
+  width: 100%;
+  background-color: rgb(213, 255, 241);
+  padding: 30px;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__content {
+}

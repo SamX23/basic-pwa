@@ -2,6 +2,7 @@ const CACHE_NAME = "pwa_cache";
 
 const urlsToCache = [
   "/",
+  "https://webdev.imgix.net/images/collections/pwa.svg",
   "/maskable_icon.png",
   "/favicon.png",
   "/icon.png",
